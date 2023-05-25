@@ -67,6 +67,11 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Baloo 2', cursive; */
 
+*, html {
+
+    scroll-behavior: smooth !important;
+}
+
 :root {
 	--thm-font: "Rubik", sans-serif;
 	--heading-font: "Baloo 2", serif;
