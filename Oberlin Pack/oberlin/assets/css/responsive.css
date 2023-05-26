@@ -217,6 +217,14 @@
 }
 
 @media(max-width: 991px) {
+    #desktop_slider {
+            display: block;
+    }
+
+    #mobile_slider {
+        display: none;
+    }
+
     .topbar-one {
         display: none;
     }
@@ -456,9 +464,8 @@
     }
 
     .main-nav-one .logo-box {
-        width: 100%;
-        justify-content: space-between;
-        padding-right: 20px;
+        padding-right: 0;
+        margin: 0 auto;
     }
 
     .donation-details__main>.row [class*=col-]+[class*=col-],
@@ -532,6 +539,13 @@
 }
 
 @media(max-width: 625px) {
+    #desktop_slider{
+        display: none;
+    }
+    #mobile_slider {
+        display: block;
+    }
+
     .about-two__image>img:not(.about-two__image-dot-2):not(.about-two__image-dot-1) {
         max-width: 100%;
     }
@@ -572,6 +586,7 @@
     .slider-four__carousel .item {
         padding-top: 175px;
         padding-bottom: 175px;
+        background-position-x: -270px;
     }
     .slider-three__nav {
         display: none;

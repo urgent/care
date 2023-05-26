@@ -225,14 +225,15 @@
     }
     if ($('.scroll-to-target').length) {
         $(".scroll-to-target").on('click', function () {
-            var target = $(this).attr('data-target');
+            // removed for css3 smooth-scroll
+            /*var target = $(this).attr('data-target');
             // animate
             $('html, body').animate({
                 scrollTop: $(target).offset().top
             }, 1000);
 
             return false;
-
+            */
         });
     }
 
