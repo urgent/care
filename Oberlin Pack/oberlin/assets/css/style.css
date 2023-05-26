@@ -7956,3 +7956,11 @@ a:focus {
 	font-size: 16px;
 	line-height: 30px;
 }
+
+#desktop_slider {
+	display: block;
+}
+
+#mobile_slider {
+	display: none;
+}

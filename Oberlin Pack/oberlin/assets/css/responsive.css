@@ -217,14 +217,6 @@
 }
 
 @media(max-width: 991px) {
-    #desktop_slider {
-            display: block;
-    }
-
-    #mobile_slider {
-        display: none;
-    }
-
     .topbar-one {
         display: none;
     }
